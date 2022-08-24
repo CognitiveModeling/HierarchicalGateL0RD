@@ -1,0 +1,10 @@
+# Script to reproduce results of section 5-D ("Modeling infants’ goal anticipations") of the paper
+# 3. step, run gaze experiments on fully trained networks
+# main: main_gaze_experiments.py
+__import__: [
+   "settings/FPP/exp4_FPP_FIM_gaze.yaml",
+   "settings/FPP/exp4_FPP_skip_gaze.yaml",
+   "settings/FPP/skipnet_default.yaml"
+]
+gaze_gamma: 0.5 # trade-off between intra- and inter-event uncertainty (0 fully intra, 1 fully inter event)
+gaze_experiment_dir: "results/exp4_gaze_experiments/"

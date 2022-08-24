@@ -1,0 +1,5 @@
+add_gaze: true
+focus_noise_sd: 0.0 # noise added on focused entity
+gaze_noise_sd: 0.05 # noise added on periphery
+alt_gaze_num: 5 # number of random gaze alternations during training
+start_hand: true # eval always starts with fixating hand

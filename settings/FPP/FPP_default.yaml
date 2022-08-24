@@ -1,0 +1,7 @@
+train_len: 30
+seq_len: 25
+ss_slope: 0.999
+grad_clip_value: 0.1
+dataset_split_rs: 42
+train_mode: "TF" # teacher forcing training
+start_steps: 1 # number of full inputs always provided

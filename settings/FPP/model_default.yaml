@@ -1,0 +1,12 @@
+latent_dim: 16
+feature_dim: 32
+layer_num: 1
+num_layers_internal: 3
+preprocessing_layers: 0
+postprocessing_layers: 3
+action_prediction_layers: 3
+warm_up_layers: 3
+warm_up_inputs: 1
+predict_delta_action: false
+gauss_net: true
+nll_beta: 0.5

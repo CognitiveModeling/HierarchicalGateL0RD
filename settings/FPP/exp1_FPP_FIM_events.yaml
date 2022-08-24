@@ -1,0 +1,13 @@
+# Script to reproduce results of section 5-A ("Learned event segmentation") of the paper
+# main: main_train_FIM.py
+__import__: [
+   "settings/FPP/FPP_default.yaml",
+   "settings/FPP/model_default.yaml",
+   "settings/FPP/nogaze_default.yaml"
+]
+model_dir: "results/exp1_FPP_FIM_training_events/"
+lr: 0.0005
+apex_data: false
+reg_lambda: 1.0 # compare against [0, 0.1, 1, 5]
+rnn_type: "GateL0RD" # optionally replace with "GRU"
+rs: 5 # seeds 5-14

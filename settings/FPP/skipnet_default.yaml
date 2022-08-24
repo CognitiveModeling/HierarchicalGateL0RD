@@ -1,0 +1,7 @@
+skip_lr: 0.0001
+skip_num_layers: 5
+skip_feature_dim: 32
+skip_predict_deltas: false
+skip_gauss_net: true
+skip_nll_beta: 0.5
+skip_ignore_single_steps: false

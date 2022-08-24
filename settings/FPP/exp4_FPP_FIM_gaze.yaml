@@ -1,0 +1,14 @@
+# Script to reproduce results of section 5-D ("Modeling infants’ goal anticipations") of the paper
+# 1. step, train forward-inverse model
+# main: main_train_FIM.py
+__import__: [
+   "settings/FPP/FPP_default.yaml",
+   "settings/FPP/model_default.yaml",
+   "settings/FPP/gaze_default.yaml"
+]
+model_dir: "results/exp4_FPP_FIM_training_gaze/"
+lr: 0.0005
+apex_data: false
+reg_lambda: 5.0 # compare against [0, 1, 5, 10]
+rnn_type: "GateL0RD" # optionally replace with "GRU"
+rs: 5 # seeds 5-14

@@ -1,0 +1,17 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+torch = "==1.8.0"
+gym = "==0.21.0"
+matplotlib = "==3.4.3"
+scipy = "==1.7.2"
+scikit-learn = "==1.0.1"
+smart-settings = {ref = "master", git = "https://github.com/martius-lab/smart-settings.git"}
+forwardable = "*"
+jupyter = "*"
+
+[requires]
+python_version = "3.8"

@@ -1,0 +1,8 @@
+# Script to reproduce results of section 5-C ("Training on more diverse sequences") of the paper
+# 2. step, train skip network
+# main: main_train_skip.py
+__import__: [
+   "settings/FPP/exp3_FPP_FIM_apex.yaml",
+   "settings/FPP/skipnet_default.yaml"
+]
+skip_model_dir: "results/exp3_FPP_skip_training_apex/"

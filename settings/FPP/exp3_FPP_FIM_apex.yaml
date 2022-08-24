@@ -1,0 +1,14 @@
+# Script to reproduce results of section 5-C ("Training on more diverse sequences") of the paper
+# 1. step, train forward-inverse model
+# main: main_train_FIM.py
+__import__: [
+   "settings/FPP/FPP_default.yaml",
+   "settings/FPP/model_default.yaml",
+   "settings/FPP/nogaze_default.yaml"
+]
+model_dir: "results/exp3_FPP_FIM_training_apex/"
+lr: 0.0005
+apex_data: true
+reg_lambda: 5.0 # compare against [0, 1, 5, 10]
+rnn_type: "GateL0RD" # optionally replace with "GRU"
+rs: 5 # seeds 5-14
