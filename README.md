@@ -1,5 +1,8 @@
 # HierarchicalGateL0RD: Developing hierarchical anticipations via neural network-based event segmentation
 Source code for our 2022 ICDL paper ["Developing hierarchical anticipations via neural network-based event segmentation"](https://arxiv.org/abs/2206.02042).
+<p align="center">
+<img src="img/prediction_reach.gif" alt="predictions_reach" width="350"/>
+</p>
 
 ## Abstract
 
