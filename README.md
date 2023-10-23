@@ -11,7 +11,7 @@ Humans can make predictions on various time scales and hierarchical levels. Ther
 
 ## Data
 
-We provide two types of sequences, **scripted** or **APEX**, downloadable [here](https://unitc-my.sharepoint.com/:f:/g/personal/iivbu01_cloud_uni-tuebingen_de/EiWjDb_lHhJGlLt86yTHebQBFVL5_vP2ZMvHo4XxG2xI-g?e=1ir4xP).
+We provide two types of sequences, **scripted** or **APEX**, downloadable [here](https://osf.io/4der6/).
 
 ### Scripted
 Here the motor commands are scripted with some motor noise added. There are 3 different types of event sequences 
